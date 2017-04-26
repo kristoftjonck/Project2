@@ -28,8 +28,9 @@ public class VerticalSeekBar extends SeekBar {
    public synchronized void setProgress(int progress)  // it is necessary for calling setProgress on click of a button
    {
     super.setProgress(progress);
-    onSizeChanged(getWidth(), getHeight(), 0, 0); 
+    onSizeChanged(getWidth(), getHeight(), 0, 0);
    }
+
     @Override
     protected synchronized void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(heightMeasureSpec, widthMeasureSpec);

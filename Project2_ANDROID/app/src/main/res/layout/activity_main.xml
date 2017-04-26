@@ -13,55 +13,57 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text=""
         android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/connect"
-        android:layout_alignEnd="@+id/connect"
-        android:layout_marginTop="82dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="18dp"
         android:id="@+id/response" />
 
     <com.example.kristof.project2_android.VerticalSeekBar
         android:id="@+id/seekBar1"
         android:layout_width="wrap_content"
         android:layout_height="fill_parent"
-        android:max="16"
+        android:max="200"
         android:thumb="@drawable/thumb_image"
         android:layout_alignParentTop="true"
-        android:layout_toLeftOf="@+id/connect"
-        android:layout_marginRight="42dp"
-        android:layout_marginEnd="42dp"
-        android:layout_alignBottom="@+id/seekBar2" />
+        android:layout_marginLeft="18dp"
+        android:layout_marginBottom="18dp"
+        android:layout_marginTop="36dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:thumbOffset="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="90dp"
+        android:id="@+id/leftText"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="90dp"
+        android:id="@+id/rightText"/>
 
     <com.example.kristof.project2_android.VerticalSeekBar
         android:id="@+id/seekBar2"
         android:layout_width="wrap_content"
         android:layout_height="fill_parent"
-        android:layout_marginRight="35dp"
-        android:layout_marginEnd="35dp"
-        android:max="16"
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="18dp"
+        android:layout_marginTop="36dp"
+        android:max="200"
         android:thumb="@drawable/thumb_image"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginBottom="288dp" />
-
-    <Button
-        android:text="Send"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/response"
-        android:layout_toRightOf="@+id/seekBar1"
-        android:layout_toEndOf="@+id/seekBar1"
-        android:layout_marginTop="12dp"
-        android:id="@+id/buttonSend" />
-
-    <Button
-        android:text="Connect"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/connect"
-        android:layout_marginTop="17dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:thumbOffset="8dp" />
 
 </RelativeLayout>
