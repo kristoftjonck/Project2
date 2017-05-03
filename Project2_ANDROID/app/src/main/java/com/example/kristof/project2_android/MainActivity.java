@@ -54,9 +54,7 @@ public class MainActivity extends AppCompatActivity {
                 new SeekBar.OnSeekBarChangeListener() {
                     @Override
                     public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-
                         rightText.setText(""+(progress-100));
-                       // sendMessage();
                     }
 
                     @Override
@@ -76,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
                 while (true) {
                     if (l_value != leftSeekBar.getProgress() || r_value != rightSeekBar.getProgress()) {
-                        final String message = "{ \"client\": \"0\", \"left\": \"" + (leftSeekBar.getProgress() - 100) + "\", \"right\": \"" + (rightSeekBar.getProgress() - 100) + "\" }";
+                        final String message = "{ \"client\": 0, \"left\": " + (leftSeekBar.getProgress() - 100) + ", \"right\": " + (rightSeekBar.getProgress() - 100) + " }";
                         try {
                             socket = new Socket("192.168.0.100", 4000);
                             PrintWriter out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(socket.getOutputStream())), true);
@@ -100,34 +98,5 @@ public class MainActivity extends AppCompatActivity {
         });
 
         sending.start();
-    }
-
-    public void sendMessage() {
-        if(sendThread != null)
-           sendThread.interrupt();
-
-        final String message = "{ \"client\": \"0\", \"left\": \"" + (leftSeekBar.getProgress()-100) + "\", \"right\": \"" + (rightSeekBar.getProgress()-100) + "\" }";
-        sendThread = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                try {
-                    socket = new Socket("192.168.0.100", 4000);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-
-                try {
-                    PrintWriter out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(socket.getOutputStream())), true);
-                    out.println(message);
-                    out.flush();
-                    socket.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-        });
-        sendThread.start();
-
-        textResponse.setText(message);
     }
 }
