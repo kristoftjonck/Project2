@@ -1,20 +1,24 @@
 package com.example.kristof.project2_android;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.*;
-import java.io.*;
+import android.widget.Button;
+import android.widget.SeekBar;
+import android.widget.TextView;
+
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.Timer;
-import java.util.concurrent.ThreadFactory;
 
 public class MainActivity extends AppCompatActivity {
-    Button buttonSend;
+    Button stopButton;
     TextView textResponse, leftText, rightText;
     VerticalSeekBar leftSeekBar, rightSeekBar;
     Socket socket;
-    Thread sendThread;
     Thread sending;
     Timer t = new Timer();
     @Override
@@ -27,9 +31,17 @@ public class MainActivity extends AppCompatActivity {
         rightSeekBar = (VerticalSeekBar) findViewById(R.id.seekBar2);
         leftText = (TextView) findViewById(R.id.leftText);
         rightText = (TextView) findViewById(R.id.rightText);
+        stopButton = (Button) findViewById(R.id.stopButton);
 
         leftSeekBar.setProgress(100);
         rightSeekBar.setProgress(100);
+        stopButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                leftSeekBar.setProgress(0);
+                rightSeekBar.setProgress(0);
+            }
+        });
         leftSeekBar.setOnSeekBarChangeListener(
                 new SeekBar.OnSeekBarChangeListener() {
                     @Override

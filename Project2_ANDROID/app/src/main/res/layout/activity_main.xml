@@ -11,59 +11,67 @@
     tools:context="com.example.kristof.project2_android.MainActivity">
 
     <TextView
+        android:id="@+id/response"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
         android:layout_marginTop="18dp"
-        android:id="@+id/response" />
+        android:text="" />
 
     <com.example.kristof.project2_android.VerticalSeekBar
         android:id="@+id/seekBar1"
         android:layout_width="wrap_content"
         android:layout_height="fill_parent"
-        android:max="200"
-        android:thumb="@drawable/thumb_image"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="18dp"
         android:layout_marginBottom="18dp"
+        android:layout_marginLeft="18dp"
         android:layout_marginTop="36dp"
+        android:max="200"
         android:paddingLeft="6dp"
         android:paddingRight="6dp"
+        android:thumb="@drawable/thumb_image"
         android:thumbOffset="8dp"/>
 
     <TextView
+        android:id="@+id/leftText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="0"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="90dp"
-        android:id="@+id/leftText"/>
+        android:text="0" />
 
     <TextView
+        android:id="@+id/rightText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="0"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_marginRight="90dp"
-        android:id="@+id/rightText"/>
+        android:text="0" />
 
     <com.example.kristof.project2_android.VerticalSeekBar
         android:id="@+id/seekBar2"
         android:layout_width="wrap_content"
         android:layout_height="fill_parent"
-        android:layout_marginRight="18dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_marginBottom="18dp"
+        android:layout_marginRight="18dp"
         android:layout_marginTop="36dp"
         android:max="200"
-        android:thumb="@drawable/thumb_image"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
         android:paddingLeft="6dp"
         android:paddingRight="6dp"
+        android:thumb="@drawable/thumb_image"
         android:thumbOffset="8dp" />
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/seekBar1"
+        android:layout_centerHorizontal="true"
+        android:text="STOP" />
 
 </RelativeLayout>
