@@ -1,0 +1,1189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="project2_server"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="project2_server">
+				<Option output="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/cmake-build-debug/project2_server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEVICE_ERROR_PATTERN=1"/>
+					<Add option="-DDEVICE_I2CSLAVE=1"/>
+					<Add option="-DDEVICE_RTC=1"/>
+					<Add option="-DDEVICE_CAN=1"/>
+					<Add option="-DDEVICE_ANALOGOUT=1"/>
+					<Add option="-DDEVICE_PWMOUT=1"/>
+					<Add option="-DDEVICE_INTERRUPTIN=1"/>
+					<Add option="-DDEVICE_I2C=1"/>
+					<Add option="-DDEVICE_PORTOUT=1"/>
+					<Add option="-DDEVICE_STDIO_MESSAGES=1"/>
+					<Add option="-DDEVICE_PORTINOUT=1"/>
+					<Add option="-DDEVICE_SERIAL_FC=1"/>
+					<Add option="-DDEVICE_PORTIN=1"/>
+					<Add option="-DDEVICE_SLEEP=1"/>
+					<Add option="-DDEVICE_SPI=1"/>
+					<Add option="-DDEVICE_ETHERNET=1"/>
+					<Add option="-DDEVICE_SPISLAVE=1"/>
+					<Add option="-DDEVICE_ANALOGIN=1"/>
+					<Add option="-DDEVICE_SERIAL=1"/>
+					<Add option="-DDEVICE_SEMIHOST=1"/>
+					<Add option="-DDEVICE_DEBUG_AWARENESS=1"/>
+					<Add option="-DDEVICE_LOCALFILESYSTEM=1"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/."/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/C12832"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/api"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/ipv4"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/snmp"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/ipv4"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/ipv4/lwip"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/netif"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif/ppp"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip-eth"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip-eth/arch"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip-eth/arch/TARGET_NXP"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip-sys"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip-sys/arch"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/Socket"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/LM75B"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/hal"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/platform"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/TARGET_NXP"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/device"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtos"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/TARGET_M3"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/TARGET_M3/TOOLCHAIN_ARM"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/picojson"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/RemoteIR"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 project2_server"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="project2_server/fast">
+				<Option output="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/cmake-build-debug/project2_server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEVICE_ERROR_PATTERN=1"/>
+					<Add option="-DDEVICE_I2CSLAVE=1"/>
+					<Add option="-DDEVICE_RTC=1"/>
+					<Add option="-DDEVICE_CAN=1"/>
+					<Add option="-DDEVICE_ANALOGOUT=1"/>
+					<Add option="-DDEVICE_PWMOUT=1"/>
+					<Add option="-DDEVICE_INTERRUPTIN=1"/>
+					<Add option="-DDEVICE_I2C=1"/>
+					<Add option="-DDEVICE_PORTOUT=1"/>
+					<Add option="-DDEVICE_STDIO_MESSAGES=1"/>
+					<Add option="-DDEVICE_PORTINOUT=1"/>
+					<Add option="-DDEVICE_SERIAL_FC=1"/>
+					<Add option="-DDEVICE_PORTIN=1"/>
+					<Add option="-DDEVICE_SLEEP=1"/>
+					<Add option="-DDEVICE_SPI=1"/>
+					<Add option="-DDEVICE_ETHERNET=1"/>
+					<Add option="-DDEVICE_SPISLAVE=1"/>
+					<Add option="-DDEVICE_ANALOGIN=1"/>
+					<Add option="-DDEVICE_SERIAL=1"/>
+					<Add option="-DDEVICE_SEMIHOST=1"/>
+					<Add option="-DDEVICE_DEBUG_AWARENESS=1"/>
+					<Add option="-DDEVICE_LOCALFILESYSTEM=1"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/."/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/C12832"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/api"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/ipv4"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/snmp"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/ipv4"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/ipv4/lwip"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/netif"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif/ppp"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip-eth"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip-eth/arch"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip-eth/arch/TARGET_NXP"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip-sys"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip-sys/arch"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/Socket"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/LM75B"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/hal"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/platform"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/TARGET_NXP"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/device"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtos"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/TARGET_M3"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/TARGET_M3/TOOLCHAIN_ARM"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/picojson"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/RemoteIR"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 project2_server/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/C12832/C12832.cpp">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/C12832/C12832.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/C12832/GraphicsDisplay.cpp">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/C12832/GraphicsDisplay.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/C12832/Small_7.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/C12832/TextDisplay.cpp">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/C12832/TextDisplay.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/Communication.cpp">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/Communication.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/Controller.cpp">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/Controller.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/EthernetInterface.cpp">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/EthernetInterface.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/Socket/Endpoint.cpp">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/Socket/Endpoint.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/Socket/Socket.cpp">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/Socket/Socket.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/Socket/TCPSocketConnection.cpp">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/Socket/TCPSocketConnection.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/Socket/TCPSocketServer.cpp">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/Socket/TCPSocketServer.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/Socket/UDPSocket.cpp">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/Socket/UDPSocket.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/eth_arch.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip-eth/arch/TARGET_NXP/lpc17_emac.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip-eth/arch/TARGET_NXP/lpc17xx_emac.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip-eth/arch/TARGET_NXP/lpc_emac_config.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip-eth/arch/TARGET_NXP/lpc_phy.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip-eth/arch/TARGET_NXP/lpc_phy_dp83848.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip-eth/arch/TARGET_NXP/lwipopts_conf.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip-sys/arch/cc.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip-sys/arch/checksum.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip-sys/arch/memcpy.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip-sys/arch/perf.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip-sys/arch/sys_arch.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip-sys/arch/sys_arch.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/api/api_lib.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/api/api_msg.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/api/err.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/api/netbuf.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/api/netdb.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/api/netifapi.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/api/sockets.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/api/tcpip.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/def.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/dhcp.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/dns.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/init.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/ipv4/autoip.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/ipv4/icmp.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/ipv4/igmp.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/ipv4/inet.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/ipv4/inet_chksum.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/ipv4/ip.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/ipv4/ip_addr.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/ipv4/ip_frag.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/mem.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/memp.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/netif.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/pbuf.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/raw.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/snmp/asn1_dec.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/snmp/asn1_enc.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/snmp/mib2.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/snmp/mib_structs.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/snmp/msg_in.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/snmp/msg_out.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/stats.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/tcp.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/tcp_in.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/tcp_out.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/timers.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/core/udp.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/ipv4/lwip/autoip.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/ipv4/lwip/icmp.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/ipv4/lwip/igmp.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/ipv4/lwip/inet.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/ipv4/lwip/inet_chksum.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/ipv4/lwip/ip.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/ipv4/lwip/ip_addr.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/ipv4/lwip/ip_frag.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/api.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/api_msg.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/arch.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/debug.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/def.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/dhcp.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/dns.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/err.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/init.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/mem.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/memp.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/memp_std.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/netbuf.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/netdb.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/netif.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/netifapi.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/opt.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/pbuf.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/raw.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/sio.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/snmp.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/snmp_asn1.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/snmp_msg.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/snmp_structs.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/sockets.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/stats.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/sys.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/tcp.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/tcp_impl.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/tcpip.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/timers.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/lwip/udp.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/netif/etharp.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/netif/ppp_oe.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/include/netif/slipif.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/lwipopts.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif/etharp.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif/ethernetif.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif/ppp/auth.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif/ppp/auth.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif/ppp/chap.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif/ppp/chap.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif/ppp/chpms.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif/ppp/chpms.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif/ppp/fsm.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif/ppp/fsm.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif/ppp/ipcp.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif/ppp/ipcp.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif/ppp/lcp.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif/ppp/lcp.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif/ppp/magic.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif/ppp/magic.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif/ppp/md5.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif/ppp/md5.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif/ppp/pap.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif/ppp/pap.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif/ppp/ppp.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif/ppp/ppp.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif/ppp/ppp_oe.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif/ppp/pppdebug.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif/ppp/randm.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif/ppp/randm.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif/ppp/vj.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif/ppp/vj.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/EthernetInterface/lwip/netif/slipif.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/JSONParser.cpp">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/JSONParser.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/LCD.cpp">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/LCD.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/LM75B/LM75B.cpp">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/LM75B/LM75B.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/LightCommunication.cpp">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/LightCommunication.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/RemoteIR/ReceiverIR.cpp">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/RemoteIR/ReceiverIR.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/RemoteIR/RemoteIR.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/RemoteIR/TransmitterIR.cpp">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/RemoteIR/TransmitterIR.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/main.cpp">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtos/Mail.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtos/MemoryPool.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtos/Mutex.cpp">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtos/Mutex.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtos/Queue.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtos/RtosTimer.cpp">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtos/RtosTimer.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtos/Semaphore.cpp">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtos/Semaphore.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtos/Thread.cpp">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtos/Thread.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtos/rtos.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtos/rtos_idle.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtos/rtos_idle.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/HAL_CM.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/RTX_CM_lib.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/RTX_Conf_CM.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/RTX_Config.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/TARGET_M3/TOOLCHAIN_ARM/HAL_CM3.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/cmsis_os.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/rt_CMSIS.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Event.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Event.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/rt_HAL_CM.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/rt_List.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/rt_List.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Mailbox.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Mailbox.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/rt_MemBox.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/rt_MemBox.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Memory.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Memory.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Mutex.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Mutex.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/rt_OsEventObserver.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/rt_OsEventObserver.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Robin.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Robin.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Semaphore.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Semaphore.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/rt_System.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/rt_System.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Task.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Task.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Time.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Time.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Timer.c">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Timer.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed-rtos/rtx/TARGET_CORTEX_M/rt_TypeDef.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/PeripheralNames.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/PortNames.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768/PinNames.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768/device.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768/reserved_pins.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/device/LPC17xx.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/device/cmsis.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/device/cmsis_nvic.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/device/system_LPC17xx.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/gpio_object.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/objects.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/TARGET_NXP/mbed_rtx.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/arm_common_tables.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/arm_const_structs.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/arm_math.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/core_ca9.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/core_caFunc.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/core_caInstr.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/core_ca_mmu.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/core_cm0.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/core_cm0plus.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/core_cm3.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/core_cm4.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/core_cm4_simd.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/core_cm7.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/core_cmFunc.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/core_cmInstr.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/core_cmSecureAccess.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/core_cmSimd.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/core_sc000.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/TARGET_LPC1768/core_sc300.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/AnalogIn.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/AnalogOut.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/BusIn.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/BusInOut.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/BusOut.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/CAN.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/DigitalIn.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/DigitalInOut.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/DigitalOut.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/DirHandle.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/Ethernet.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/FileBase.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/FileHandle.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/FileLike.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/FilePath.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/FileSystemLike.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/I2C.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/I2CSlave.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/InterruptIn.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/InterruptManager.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/LocalFileSystem.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/LowPowerTicker.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/LowPowerTimeout.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/LowPowerTimer.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/PortIn.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/PortInOut.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/PortOut.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/PwmOut.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/RawSerial.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/SPI.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/SPISlave.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/Serial.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/SerialBase.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/Stream.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/Ticker.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/Timeout.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/Timer.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/drivers/TimerEvent.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/hal/Driver_Common.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/hal/Driver_Storage.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/hal/analogin_api.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/hal/analogout_api.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/hal/buffer.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/hal/can_api.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/hal/can_helper.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/hal/dma_api.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/hal/emac_api.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/hal/ethernet_api.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/hal/gpio_api.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/hal/gpio_irq_api.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/hal/i2c_api.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/hal/lp_ticker_api.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/hal/pinmap.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/hal/port_api.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/hal/pwmout_api.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/hal/rtc_api.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/hal/serial_api.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/hal/sleep_api.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/hal/spi_api.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/hal/ticker_api.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/hal/trng_api.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/hal/us_ticker_api.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/mbed.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/platform/CThunk.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/platform/CallChain.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/platform/Callback.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/platform/CircularBuffer.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/platform/FunctionPointer.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/platform/PlatformMutex.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/platform/SingletonPtr.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/platform/Transaction.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/platform/critical.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/platform/mbed_assert.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/platform/mbed_debug.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/platform/mbed_error.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/platform/mbed_interface.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/platform/mbed_mem_trace.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/platform/mbed_preprocessor.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/platform/mbed_stats.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/platform/platform.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/platform/rtc_time.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/platform/semihost_api.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/platform/toolchain.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed/platform/wait_api.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/mbed_config.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/picojson/picojson.h">
+			<Option target="project2_server"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

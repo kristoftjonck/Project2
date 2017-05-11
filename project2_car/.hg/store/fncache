@@ -1,0 +1,9 @@
+data/Controller.h.i
+data/LightCommunication.cpp.i
+data/main.cpp.i
+data/Controller.cpp.i
+data/LightCommunication.h.i
+data/RemoteIR.lib.i
+data/m3pi.lib.i
+data/mbed.bld.i
+data/mbed-rtos.lib.i

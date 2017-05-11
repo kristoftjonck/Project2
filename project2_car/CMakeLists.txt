@@ -1,0 +1,227 @@
+cmake_minimum_required(VERSION 3.7)
+project(project2_car)
+
+set(CMAKE_CXX_STANDARD 11)
+
+set(SOURCE_FILES
+        m3pi/m3pi.cpp
+        m3pi/m3pi.h
+        mbed/drivers/AnalogIn.h
+        mbed/drivers/AnalogOut.h
+        mbed/drivers/BusIn.h
+        mbed/drivers/BusInOut.h
+        mbed/drivers/BusOut.h
+        mbed/drivers/CAN.h
+        mbed/drivers/DigitalIn.h
+        mbed/drivers/DigitalInOut.h
+        mbed/drivers/DigitalOut.h
+        mbed/drivers/DirHandle.h
+        mbed/drivers/Ethernet.h
+        mbed/drivers/FileBase.h
+        mbed/drivers/FileHandle.h
+        mbed/drivers/FileLike.h
+        mbed/drivers/FilePath.h
+        mbed/drivers/FileSystemLike.h
+        mbed/drivers/I2C.h
+        mbed/drivers/I2CSlave.h
+        mbed/drivers/InterruptIn.h
+        mbed/drivers/InterruptManager.h
+        mbed/drivers/LocalFileSystem.h
+        mbed/drivers/LowPowerTicker.h
+        mbed/drivers/LowPowerTimeout.h
+        mbed/drivers/LowPowerTimer.h
+        mbed/drivers/PortIn.h
+        mbed/drivers/PortInOut.h
+        mbed/drivers/PortOut.h
+        mbed/drivers/PwmOut.h
+        mbed/drivers/RawSerial.h
+        mbed/drivers/Serial.h
+        mbed/drivers/SerialBase.h
+        mbed/drivers/SPI.h
+        mbed/drivers/SPISlave.h
+        mbed/drivers/Stream.h
+        mbed/drivers/Ticker.h
+        mbed/drivers/Timeout.h
+        mbed/drivers/Timer.h
+        mbed/drivers/TimerEvent.h
+        mbed/hal/analogin_api.h
+        mbed/hal/analogout_api.h
+        mbed/hal/buffer.h
+        mbed/hal/can_api.h
+        mbed/hal/can_helper.h
+        mbed/hal/dma_api.h
+        mbed/hal/Driver_Common.h
+        mbed/hal/Driver_Storage.h
+        mbed/hal/emac_api.h
+        mbed/hal/ethernet_api.h
+        mbed/hal/gpio_api.h
+        mbed/hal/gpio_irq_api.h
+        mbed/hal/i2c_api.h
+        mbed/hal/lp_ticker_api.h
+        mbed/hal/pinmap.h
+        mbed/hal/port_api.h
+        mbed/hal/pwmout_api.h
+        mbed/hal/rtc_api.h
+        mbed/hal/serial_api.h
+        mbed/hal/sleep_api.h
+        mbed/hal/spi_api.h
+        mbed/hal/ticker_api.h
+        mbed/hal/trng_api.h
+        mbed/hal/us_ticker_api.h
+        mbed/platform/Callback.h
+        mbed/platform/CallChain.h
+        mbed/platform/CircularBuffer.h
+        mbed/platform/critical.h
+        mbed/platform/CThunk.h
+        mbed/platform/FunctionPointer.h
+        mbed/platform/mbed_assert.h
+        mbed/platform/mbed_debug.h
+        mbed/platform/mbed_error.h
+        mbed/platform/mbed_interface.h
+        mbed/platform/mbed_mem_trace.h
+        mbed/platform/mbed_preprocessor.h
+        mbed/platform/mbed_stats.h
+        mbed/platform/platform.h
+        mbed/platform/PlatformMutex.h
+        mbed/platform/rtc_time.h
+        mbed/platform/semihost_api.h
+        mbed/platform/SingletonPtr.h
+        mbed/platform/toolchain.h
+        mbed/platform/Transaction.h
+        mbed/platform/wait_api.h
+        mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/device/cmsis.h
+        mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/device/cmsis_nvic.h
+        mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/device/LPC17xx.h
+        mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/device/system_LPC17xx.h
+        mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768/device.h
+        mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768/PinNames.h
+        mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768/reserved_pins.h
+        mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/gpio_object.h
+        mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/objects.h
+        mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/PeripheralNames.h
+        mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/PortNames.h
+        mbed/TARGET_LPC1768/TARGET_NXP/mbed_rtx.h
+        mbed/TARGET_LPC1768/arm_common_tables.h
+        mbed/TARGET_LPC1768/arm_const_structs.h
+        mbed/TARGET_LPC1768/arm_math.h
+        mbed/TARGET_LPC1768/core_ca9.h
+        mbed/TARGET_LPC1768/core_ca_mmu.h
+        mbed/TARGET_LPC1768/core_caFunc.h
+        mbed/TARGET_LPC1768/core_caInstr.h
+        mbed/TARGET_LPC1768/core_cm0.h
+        mbed/TARGET_LPC1768/core_cm0plus.h
+        mbed/TARGET_LPC1768/core_cm3.h
+        mbed/TARGET_LPC1768/core_cm4.h
+        mbed/TARGET_LPC1768/core_cm4_simd.h
+        mbed/TARGET_LPC1768/core_cm7.h
+        mbed/TARGET_LPC1768/core_cmFunc.h
+        mbed/TARGET_LPC1768/core_cmInstr.h
+        mbed/TARGET_LPC1768/core_cmSecureAccess.h
+        mbed/TARGET_LPC1768/core_cmSimd.h
+        mbed/TARGET_LPC1768/core_sc000.h
+        mbed/TARGET_LPC1768/core_sc300.h
+        mbed/mbed.h
+        mbed-rtos/rtos/Mail.h
+        mbed-rtos/rtos/MemoryPool.h
+        mbed-rtos/rtos/Mutex.cpp
+        mbed-rtos/rtos/Mutex.h
+        mbed-rtos/rtos/Queue.h
+        mbed-rtos/rtos/rtos.h
+        mbed-rtos/rtos/rtos_idle.c
+        mbed-rtos/rtos/rtos_idle.h
+        mbed-rtos/rtos/RtosTimer.cpp
+        mbed-rtos/rtos/RtosTimer.h
+        mbed-rtos/rtos/Semaphore.cpp
+        mbed-rtos/rtos/Semaphore.h
+        mbed-rtos/rtos/Thread.cpp
+        mbed-rtos/rtos/Thread.h
+        mbed-rtos/rtx/TARGET_CORTEX_M/TARGET_M3/TOOLCHAIN_ARM/HAL_CM3.c
+        mbed-rtos/rtx/TARGET_CORTEX_M/cmsis_os.h
+        mbed-rtos/rtx/TARGET_CORTEX_M/HAL_CM.c
+        mbed-rtos/rtx/TARGET_CORTEX_M/rt_CMSIS.c
+        mbed-rtos/rtx/TARGET_CORTEX_M/rt_Event.c
+        mbed-rtos/rtx/TARGET_CORTEX_M/rt_Event.h
+        mbed-rtos/rtx/TARGET_CORTEX_M/rt_HAL_CM.h
+        mbed-rtos/rtx/TARGET_CORTEX_M/rt_List.c
+        mbed-rtos/rtx/TARGET_CORTEX_M/rt_List.h
+        mbed-rtos/rtx/TARGET_CORTEX_M/rt_Mailbox.c
+        mbed-rtos/rtx/TARGET_CORTEX_M/rt_Mailbox.h
+        mbed-rtos/rtx/TARGET_CORTEX_M/rt_MemBox.c
+        mbed-rtos/rtx/TARGET_CORTEX_M/rt_MemBox.h
+        mbed-rtos/rtx/TARGET_CORTEX_M/rt_Memory.c
+        mbed-rtos/rtx/TARGET_CORTEX_M/rt_Memory.h
+        mbed-rtos/rtx/TARGET_CORTEX_M/rt_Mutex.c
+        mbed-rtos/rtx/TARGET_CORTEX_M/rt_Mutex.h
+        mbed-rtos/rtx/TARGET_CORTEX_M/rt_OsEventObserver.c
+        mbed-rtos/rtx/TARGET_CORTEX_M/rt_OsEventObserver.h
+        mbed-rtos/rtx/TARGET_CORTEX_M/rt_Robin.c
+        mbed-rtos/rtx/TARGET_CORTEX_M/rt_Robin.h
+        mbed-rtos/rtx/TARGET_CORTEX_M/rt_Semaphore.c
+        mbed-rtos/rtx/TARGET_CORTEX_M/rt_Semaphore.h
+        mbed-rtos/rtx/TARGET_CORTEX_M/rt_System.c
+        mbed-rtos/rtx/TARGET_CORTEX_M/rt_System.h
+        mbed-rtos/rtx/TARGET_CORTEX_M/rt_Task.c
+        mbed-rtos/rtx/TARGET_CORTEX_M/rt_Task.h
+        mbed-rtos/rtx/TARGET_CORTEX_M/rt_Time.c
+        mbed-rtos/rtx/TARGET_CORTEX_M/rt_Time.h
+        mbed-rtos/rtx/TARGET_CORTEX_M/rt_Timer.c
+        mbed-rtos/rtx/TARGET_CORTEX_M/rt_Timer.h
+        mbed-rtos/rtx/TARGET_CORTEX_M/rt_TypeDef.h
+        mbed-rtos/rtx/TARGET_CORTEX_M/RTX_CM_lib.h
+        mbed-rtos/rtx/TARGET_CORTEX_M/RTX_Conf_CM.c
+        mbed-rtos/rtx/TARGET_CORTEX_M/RTX_Config.h
+        RemoteIR/ReceiverIR.cpp
+        RemoteIR/ReceiverIR.h
+        RemoteIR/RemoteIR.h
+        RemoteIR/TransmitterIR.cpp
+        RemoteIR/TransmitterIR.h
+        Controller.cpp
+        Controller.h
+        LightCommunication.cpp
+        LightCommunication.h
+        main.cpp
+        mbed_config.h)
+
+add_definitions(-DDEVICE_ERROR_PATTERN=1)
+add_definitions(-DDEVICE_I2CSLAVE=1)
+add_definitions(-DDEVICE_RTC=1)
+add_definitions(-DDEVICE_CAN=1)
+add_definitions(-DDEVICE_ANALOGOUT=1)
+add_definitions(-DDEVICE_PWMOUT=1)
+add_definitions(-DDEVICE_INTERRUPTIN=1)
+add_definitions(-DDEVICE_I2C=1)
+add_definitions(-DDEVICE_PORTOUT=1)
+add_definitions(-DDEVICE_STDIO_MESSAGES=1)
+add_definitions(-DDEVICE_PORTINOUT=1)
+add_definitions(-DDEVICE_SERIAL_FC=1)
+add_definitions(-DDEVICE_PORTIN=1)
+add_definitions(-DDEVICE_SLEEP=1)
+add_definitions(-DDEVICE_SPI=1)
+add_definitions(-DDEVICE_ETHERNET=1)
+add_definitions(-DDEVICE_SPISLAVE=1)
+add_definitions(-DDEVICE_ANALOGIN=1)
+add_definitions(-DDEVICE_SERIAL=1)
+add_definitions(-DDEVICE_SEMIHOST=1)
+add_definitions(-DDEVICE_DEBUG_AWARENESS=1)
+add_definitions(-DDEVICE_LOCALFILESYSTEM=1)
+
+include_directories(.)
+include_directories(m3pi)
+include_directories(mbed)
+include_directories(mbed/drivers)
+include_directories(mbed/hal)
+include_directories(mbed/platform)
+include_directories(mbed/TARGET_LPC1768)
+include_directories(mbed/TARGET_LPC1768/TARGET_NXP)
+include_directories(mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X)
+include_directories(mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/device)
+include_directories(mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768)
+include_directories(mbed-rtos)
+include_directories(mbed-rtos/rtos)
+include_directories(mbed-rtos/rtx)
+include_directories(mbed-rtos/rtx/TARGET_CORTEX_M)
+include_directories(mbed-rtos/rtx/TARGET_CORTEX_M/TARGET_M3)
+include_directories(mbed-rtos/rtx/TARGET_CORTEX_M/TARGET_M3/TOOLCHAIN_ARM)
+include_directories(RemoteIR)
+
+add_executable(project2_car ${SOURCE_FILES})

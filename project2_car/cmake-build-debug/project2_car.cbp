@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="project2_car"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="project2_car">
+				<Option output="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/cmake-build-debug/project2_car.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEVICE_ERROR_PATTERN=1"/>
+					<Add option="-DDEVICE_I2CSLAVE=1"/>
+					<Add option="-DDEVICE_RTC=1"/>
+					<Add option="-DDEVICE_CAN=1"/>
+					<Add option="-DDEVICE_ANALOGOUT=1"/>
+					<Add option="-DDEVICE_PWMOUT=1"/>
+					<Add option="-DDEVICE_INTERRUPTIN=1"/>
+					<Add option="-DDEVICE_I2C=1"/>
+					<Add option="-DDEVICE_PORTOUT=1"/>
+					<Add option="-DDEVICE_STDIO_MESSAGES=1"/>
+					<Add option="-DDEVICE_PORTINOUT=1"/>
+					<Add option="-DDEVICE_SERIAL_FC=1"/>
+					<Add option="-DDEVICE_PORTIN=1"/>
+					<Add option="-DDEVICE_SLEEP=1"/>
+					<Add option="-DDEVICE_SPI=1"/>
+					<Add option="-DDEVICE_ETHERNET=1"/>
+					<Add option="-DDEVICE_SPISLAVE=1"/>
+					<Add option="-DDEVICE_ANALOGIN=1"/>
+					<Add option="-DDEVICE_SERIAL=1"/>
+					<Add option="-DDEVICE_SEMIHOST=1"/>
+					<Add option="-DDEVICE_DEBUG_AWARENESS=1"/>
+					<Add option="-DDEVICE_LOCALFILESYSTEM=1"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/."/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/m3pi"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/hal"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/platform"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/TARGET_NXP"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/device"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtos"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/TARGET_M3"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/TARGET_M3/TOOLCHAIN_ARM"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/RemoteIR"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 project2_car"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="project2_car/fast">
+				<Option output="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/cmake-build-debug/project2_car.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEVICE_ERROR_PATTERN=1"/>
+					<Add option="-DDEVICE_I2CSLAVE=1"/>
+					<Add option="-DDEVICE_RTC=1"/>
+					<Add option="-DDEVICE_CAN=1"/>
+					<Add option="-DDEVICE_ANALOGOUT=1"/>
+					<Add option="-DDEVICE_PWMOUT=1"/>
+					<Add option="-DDEVICE_INTERRUPTIN=1"/>
+					<Add option="-DDEVICE_I2C=1"/>
+					<Add option="-DDEVICE_PORTOUT=1"/>
+					<Add option="-DDEVICE_STDIO_MESSAGES=1"/>
+					<Add option="-DDEVICE_PORTINOUT=1"/>
+					<Add option="-DDEVICE_SERIAL_FC=1"/>
+					<Add option="-DDEVICE_PORTIN=1"/>
+					<Add option="-DDEVICE_SLEEP=1"/>
+					<Add option="-DDEVICE_SPI=1"/>
+					<Add option="-DDEVICE_ETHERNET=1"/>
+					<Add option="-DDEVICE_SPISLAVE=1"/>
+					<Add option="-DDEVICE_ANALOGIN=1"/>
+					<Add option="-DDEVICE_SERIAL=1"/>
+					<Add option="-DDEVICE_SEMIHOST=1"/>
+					<Add option="-DDEVICE_DEBUG_AWARENESS=1"/>
+					<Add option="-DDEVICE_LOCALFILESYSTEM=1"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/."/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/m3pi"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/hal"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/platform"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/TARGET_NXP"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/device"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtos"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/TARGET_M3"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/TARGET_M3/TOOLCHAIN_ARM"/>
+					<Add directory="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/RemoteIR"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 project2_car/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/Controller.cpp">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/Controller.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/LightCommunication.cpp">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/LightCommunication.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/RemoteIR/ReceiverIR.cpp">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/RemoteIR/ReceiverIR.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/RemoteIR/RemoteIR.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/RemoteIR/TransmitterIR.cpp">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/RemoteIR/TransmitterIR.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/m3pi/m3pi.cpp">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/m3pi/m3pi.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/main.cpp">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtos/Mail.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtos/MemoryPool.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtos/Mutex.cpp">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtos/Mutex.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtos/Queue.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtos/RtosTimer.cpp">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtos/RtosTimer.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtos/Semaphore.cpp">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtos/Semaphore.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtos/Thread.cpp">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtos/Thread.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtos/rtos.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtos/rtos_idle.c">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtos/rtos_idle.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/HAL_CM.c">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/RTX_CM_lib.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/RTX_Conf_CM.c">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/RTX_Config.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/TARGET_M3/TOOLCHAIN_ARM/HAL_CM3.c">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/cmsis_os.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/rt_CMSIS.c">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Event.c">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Event.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/rt_HAL_CM.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/rt_List.c">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/rt_List.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Mailbox.c">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Mailbox.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/rt_MemBox.c">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/rt_MemBox.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Memory.c">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Memory.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Mutex.c">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Mutex.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/rt_OsEventObserver.c">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/rt_OsEventObserver.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Robin.c">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Robin.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Semaphore.c">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Semaphore.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/rt_System.c">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/rt_System.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Task.c">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Task.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Time.c">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Time.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Timer.c">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/rt_Timer.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed-rtos/rtx/TARGET_CORTEX_M/rt_TypeDef.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/PeripheralNames.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/PortNames.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768/PinNames.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768/device.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768/reserved_pins.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/device/LPC17xx.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/device/cmsis.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/device/cmsis_nvic.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/device/system_LPC17xx.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/gpio_object.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/TARGET_NXP/TARGET_LPC176X/objects.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/TARGET_NXP/mbed_rtx.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/arm_common_tables.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/arm_const_structs.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/arm_math.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/core_ca9.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/core_caFunc.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/core_caInstr.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/core_ca_mmu.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/core_cm0.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/core_cm0plus.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/core_cm3.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/core_cm4.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/core_cm4_simd.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/core_cm7.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/core_cmFunc.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/core_cmInstr.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/core_cmSecureAccess.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/core_cmSimd.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/core_sc000.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/TARGET_LPC1768/core_sc300.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/AnalogIn.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/AnalogOut.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/BusIn.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/BusInOut.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/BusOut.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/CAN.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/DigitalIn.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/DigitalInOut.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/DigitalOut.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/DirHandle.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/Ethernet.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/FileBase.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/FileHandle.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/FileLike.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/FilePath.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/FileSystemLike.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/I2C.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/I2CSlave.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/InterruptIn.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/InterruptManager.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/LocalFileSystem.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/LowPowerTicker.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/LowPowerTimeout.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/LowPowerTimer.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/PortIn.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/PortInOut.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/PortOut.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/PwmOut.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/RawSerial.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/SPI.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/SPISlave.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/Serial.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/SerialBase.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/Stream.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/Ticker.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/Timeout.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/Timer.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/drivers/TimerEvent.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/hal/Driver_Common.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/hal/Driver_Storage.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/hal/analogin_api.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/hal/analogout_api.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/hal/buffer.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/hal/can_api.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/hal/can_helper.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/hal/dma_api.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/hal/emac_api.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/hal/ethernet_api.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/hal/gpio_api.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/hal/gpio_irq_api.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/hal/i2c_api.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/hal/lp_ticker_api.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/hal/pinmap.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/hal/port_api.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/hal/pwmout_api.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/hal/rtc_api.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/hal/serial_api.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/hal/sleep_api.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/hal/spi_api.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/hal/ticker_api.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/hal/trng_api.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/hal/us_ticker_api.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/mbed.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/platform/CThunk.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/platform/CallChain.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/platform/Callback.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/platform/CircularBuffer.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/platform/FunctionPointer.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/platform/PlatformMutex.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/platform/SingletonPtr.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/platform/Transaction.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/platform/critical.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/platform/mbed_assert.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/platform/mbed_debug.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/platform/mbed_error.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/platform/mbed_interface.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/platform/mbed_mem_trace.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/platform/mbed_preprocessor.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/platform/mbed_stats.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/platform/platform.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/platform/rtc_time.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/platform/semihost_api.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/platform/toolchain.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed/platform/wait_api.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/mbed_config.h">
+			<Option target="project2_car"/>
+		</Unit>
+		<Unit filename="C:/Users/krist/Documents/2016-2017/Semester 2/Projectwerk/project2/project2_car/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
