@@ -1,4 +1,4 @@
 [ui]
 ignore.local = .hg/hgignore
 [paths]
-default = http://mbed.org/users/mbed_official/code/EthernetInterface/
+default = https://developer.mbed.org/users/gimohd/code/EthernetInterfaceFork/

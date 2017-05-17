@@ -70,8 +70,28 @@
         android:id="@+id/stopButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/seekBar1"
+        android:text="STOP"
+        android:layout_alignTop="@+id/seekBar2"
         android:layout_centerHorizontal="true"
-        android:text="STOP" />
+        android:layout_marginTop="68dp" />
+
+    <Switch
+        android:id="@+id/enable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:splitTrack="false"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="113dp"
+        android:text="Continuous Transmission"
+        android:layout_below="@+id/stopButton"
+        android:layout_toLeftOf="@+id/rightText"
+        android:layout_toStartOf="@+id/rightText" />
 
 </RelativeLayout>

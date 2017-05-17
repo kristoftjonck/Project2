@@ -25,15 +25,15 @@ int Controller::run()
     // RECEIVE DATA FROM ETHERNET
     std::string received = communication->getData();
     // PARSE DATA
-    uint8_t buffer[3];
+    uint8_t buffer[4];
     parser->getParsedData(received, buffer);
     //PRINT DATA ON LCD
-    lcd->printf("%X", buffer[1]);
+    //lcd->printf("%X", buffer[1]);
     //SEND DATA WITH VISIBLE LIGHT
-   // uint8_t buffer[] ={0xFF,0x00,0x52};
+    //uint8_t buffer[] ={0x00,0x10,0x01, 0x10 + 0x};
     //printf("%X%X%X",buffer[0],buffer[1],buffer[2]);
     lightCommunication->sendSerial(buffer);
     //lightCommunication->sendIRStyle(buffer);
-    wait_ms(200);
+    //wait_ms(100);
     return 1;
 }

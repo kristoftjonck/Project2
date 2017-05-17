@@ -8,13 +8,13 @@
 
 LightCommunication::LightCommunication()
 {
+    left= 0;
+    right = 0;
     ir_rx = new ReceiverIR(p21);
     device = new Serial(p13,p14);
     mut = new Mutex();
-    left= 0;
-    right = 0;
-    device->baud(19200);
-    device->attach(callback(this,&LightCommunication::receiveData), Serial::RxIrq);
+    device->baud(9600);
+    //device->attach(callback(this,&LightCommunication::receiveData), Serial::RxIrq);
 }
 
 LightCommunication::~LightCommunication()
@@ -34,53 +34,72 @@ void LightCommunication::getIRStyle(uint8_t * buf)
 
 void LightCommunication::receiveData()
 {
+    uint8_t data [4];
     //SERIAL RECEIVE
-    if(device->readable()) {
-        uint8_t data [128];
-        device->scanf("%s",data);
-        printf("Received data: client:%d left: %d right:%d \r\n",data[0],data[1],data[2]);
+    //if(device->scanf("%c%c%c",data[0],data[1],data[2])>0) {
+        if (device->readable()){
+            data[0] = device->getc();
+            
+            
+        printf("DATA");
+        printf("Received data: client:%d \r\n",data[0]);
         if (OWN_ID == (int) data[0]) {
+            data[1] = device->getc();
+            data[2] = device->getc();
+            data[3] = device->getc();
+            printf("%X%X%X%X",data[0],data[1],data[2],data[3]);
+            if(data[3] ==  (((data[1] + data[2] + 127) % 251) & 0xFF)){
             mut->lock();
             left = LightCommunication::toFloat(data[1]);
             right = LightCommunication::toFloat(data[2]);
 
             printf("DATA left = %f right = %f \r\n",left,right);
             mut->unlock();
+            }
         }
     }
 }
 
 float LightCommunication::getRight(float cur_right)
 {
-
+    float r = right;
+    mut->unlock();
+    return r;
+/*
     float r = right - cur_right;
 
     float cur_speed = 0;
-    if (r>0) {
+    if (r>0.0f) {
         cur_speed = (float)(cur_right + (0.005*SPEED));
-    } else if (r<0) {
+    } else if (r<0.0f) {
 
         cur_speed = (float)(cur_right - (0.005*SPEED));
     } else {
-        cur_speed = right;
+        cur_speed = cur_right;
     }
     mut->unlock();
     return cur_speed;
+    */
 }
 
 float LightCommunication::getLeft(float cur_left)
 {
-
+    mut->lock();
+    float l = left;
+    
+    return l;
+/*
     mut->lock();
     float l = left - cur_left;
-    if (l>0) {
+    if (l>0.0f) {
+    printf("lefdif: %f\r\n",l);
         return (float)(cur_left + (0.005*SPEED));
-    } else if (l<0) {
+    } else if (l<0.0f) {
         return (float)(cur_left - (0.005*SPEED));
     } else {
         return cur_left;
-    }
-    //return left;
+    }*/
+    
 }
 
 float LightCommunication::toFloat(int8_t a)

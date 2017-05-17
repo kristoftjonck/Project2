@@ -7,7 +7,7 @@
 LightCommunication::LightCommunication() {
     light_IRStyle = new TransmitterIR(p21);
     light_serial = new Serial(p13, p14);
-     light_serial->baud (19200);
+     light_serial->baud (9600);
 }
 
 LightCommunication::~LightCommunication() {
@@ -16,8 +16,9 @@ LightCommunication::~LightCommunication() {
 }
 
 void LightCommunication::sendSerial(uint8_t *data) {
-    //light_serial->printf("%c%c%c", data[0],data[1],data[2]);
-    light_serial->printf("%s", data);
+    light_serial->printf("%c%c%c%c", data[0],data[1],data[2],data[3]);
+    
+    //light_serial->printf("%s", data);
 }
 
 

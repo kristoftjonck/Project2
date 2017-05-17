@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.SeekBar;
+import android.widget.Switch;
 import android.widget.TextView;
 
 import java.io.BufferedWriter;
@@ -17,7 +18,9 @@ import java.util.Timer;
 public class MainActivity extends AppCompatActivity {
     Button stopButton;
     TextView textResponse, leftText, rightText;
+    Switch enable;
     VerticalSeekBar leftSeekBar, rightSeekBar;
+
     Socket socket;
     Thread sending;
     Timer t = new Timer();
@@ -32,14 +35,15 @@ public class MainActivity extends AppCompatActivity {
         leftText = (TextView) findViewById(R.id.leftText);
         rightText = (TextView) findViewById(R.id.rightText);
         stopButton = (Button) findViewById(R.id.stopButton);
+        enable = (Switch) findViewById(R.id.enable);
 
         leftSeekBar.setProgress(100);
         rightSeekBar.setProgress(100);
         stopButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                leftSeekBar.setProgress(0);
-                rightSeekBar.setProgress(0);
+                leftSeekBar.setProgress(100);
+                rightSeekBar.setProgress(100);
             }
         });
         leftSeekBar.setOnSeekBarChangeListener(
@@ -85,8 +89,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
                 while (true) {
-                    if (l_value != leftSeekBar.getProgress() || r_value != rightSeekBar.getProgress()) {
-                        final String message = "{ \"client\": 0, \"left\": " + (leftSeekBar.getProgress() - 100) + ", \"right\": " + (rightSeekBar.getProgress() - 100) + " }";
+                   // if(enable.isChecked()) {
+                    if (enable.isChecked() || (l_value != leftSeekBar.getProgress() || r_value != rightSeekBar.getProgress())) {
+                        final String message = "{ \"client\": 0, \"right\": " + (leftSeekBar.getProgress() - 100) + ", \"left\": " + (rightSeekBar.getProgress() - 100) + " }";
                         try {
                             socket = new Socket("192.168.0.100", 4000);
                             PrintWriter out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(socket.getOutputStream())), true);
@@ -97,11 +102,12 @@ public class MainActivity extends AppCompatActivity {
                             e.printStackTrace();
                         }
 
+                        l_value = leftSeekBar.getProgress();
+                        r_value = rightSeekBar.getProgress();
                     }
-                    l_value = leftSeekBar.getProgress();
-                    r_value = rightSeekBar.getProgress();
+
                     try {
-                        Thread.sleep(200);
+                        Thread.sleep(100);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
